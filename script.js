@@ -5,39 +5,60 @@
    ========================================================== */
 
 const salonItems = [
-  { image: "images/salon-1.jpeg.jpeg", title: "Modern Sofa", description: "A comfortable statement sofa with clean lines and a warm, welcoming finish." },
-  { image: "images/salon-2.jpeg.jpeg" , title: "Accent Chair", description: "A sculptural accent chair that brings texture and character to your living room." },
-  { image: "images/salon-3.jpeg.jpeg", title: "Coffee Table", description: "A refined centerpiece with natural materials and a timeless silhouette." },
-  { image: "images/salon-4.jpeg.jpeg", title: "Living Room Set", description: "A coordinated look designed for relaxed evenings and effortless entertaining." },
-  { image: "images/salon-5.jpeg.jpeg", title: "Contemporary Console", description: "Elegant storage and display space for your favorite objects." },
-  { image: "images/salon-6.jpeg.jpeg", title: "Warm Neutral Lounge", description: "Soft colors and thoughtful details create a calm, inviting atmosphere." }
+  { image: "images/salon-1.jpeg.jpeg",  },
+  { image: "images/salon-2.jpeg.jpeg" ,  },
+  { image: "images/salon-3.jpeg.jpeg", },
+  { image: "images/salon-4.jpeg.jpeg", },
+  { image: "images/salon-5.jpeg.jpeg", },
+  { image: "images/salon-6.jpeg.jpeg",  },
+  { image: "images/salon-7.jpeg.jpeg",  },
+  { image: "images/salon-8.jpeg.jpeg",  },
+  { image: "images/salon-9.jpeg.jpeg",  },
+  { image: "images/salon-10.jpeg.jpeg",  },
+  { image: "images/salon-11.jpeg.jpeg",  },
+  { image: "images/salon-12.jpeg.jpeg",  },
+  { image: "images/salon-13.jpeg.jpeg",  }
+
+
+  
+  
 ];
 
 const kitchenItems = [
-  { image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85", title: "Contemporary Kitchen", description: "A balanced mix of practical storage, elegant finishes, and modern lines." },
-  { image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85", title: "Natural Wood Kitchen", description: "Warm wood tones add a timeless, welcoming feel to the heart of the home." },
-  { image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=85", title: "Minimal Kitchen", description: "Clean surfaces and simple detailing for a beautifully uncluttered space." },
-  { image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85", title: "Kitchen Island", description: "A central gathering point for preparation, conversation, and everyday living." },
-  { image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=85", title: "Modern Cabinetry", description: "Smart storage and a carefully considered finish keep everything in its place." },
-  { image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85", title: "Elegant Kitchen Details", description: "A thoughtful combination of texture, lighting, and understated hardware." }
+  { image: "images/kitchen-1.jpeg.jpeg",},
+  { image: "images/kitchen-2.jpeg.jpeg",},
+  { image: "images/kitchen-3.jpeg.jpeg",},
+  { image: "images/kitchen-4.jpeg.jpeg",},
+  { image: "images/kitchen-5.jpeg.jpeg",},
+  { image: "images/kitchen-6.jpeg.jpeg",},
+  { image: "images/kitchen-7.jpeg.jpeg",},
+  { image: "images/kitchen-8.jpeg.jpeg",},
+  { image: "images/kitchen-9.jpeg.jpeg",},
+  { image: "images/kitchen-10.jpeg.jpeg",},
+
 ];
 
 const bedroomItems = [
-  { image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1000&q=85", title: "Upholstered Bed", description: "A soft, inviting focal point designed to make your bedroom feel restful." },
-  { image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85", title: "Calm Bedroom Set", description: "A harmonious bedroom look with understated tones and practical comfort." },
-  { image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=85", title: "Bedside Tables", description: "Useful bedside storage with a neat profile and a timeless finish." },
-  { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1000&q=85", title: "Wardrobe & Storage", description: "Keep clothing and essentials organized with clean, considered storage." },
-  { image: "https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1000&q=85", title: "Bedroom Details", description: "Layered materials and soft lighting create a more personal retreat." },
-  { image: "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1000&q=85", title: "Modern Bedroom", description: "A simple, elegant setting made for slow mornings and peaceful nights." }
+  { image: "images/bed-1.jpeg.jpeg",},
+  { image: "images/bed-2.jpeg.jpeg",},
+  { image: "images/bed-3.jpeg.jpeg",},
+  { image: "images/bed-4.jpeg.jpeg",},
+  { image: "images/bed-5.jpeg.jpeg",},
+  { image: "images/bed-6.jpeg.jpeg",},
+  { image: "images/bed-7.jpeg.jpeg",},
+  { image: "images/bed-8.jpeg.jpeg",},
+  { image: "images/bed-9.jpeg.jpeg",},
+  { image: "images/bed-10.jpeg.jpeg",},
+  { image: "images/bed-11.jpeg.jpeg",}
+
 ];
 
 const diningItems = [
-  { image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1000&q=85", title: "Dining Table Set", description: "A gathering place for family meals, celebrations, and everyday moments." },
-  { image: "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1000&q=85", title: "Modern Dining Chairs", description: "Comfortable seating with a clean shape and a polished, contemporary look." },
-  { image: "https://images.unsplash.com/photo-1615968679312-9b7ed9f5f2e4?auto=format&fit=crop&w=1000&q=85", title: "Wooden Dining Table", description: "Natural wood character brings warmth to a dining room made for gathering." },
-  { image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85", title: "Open-Plan Dining", description: "A coordinated dining space that flows beautifully into the rest of the home." },
-  { image: "https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1000&q=85", title: "Dining Room Styling", description: "Thoughtful details help create a welcoming setting for guests and family." },
-  { image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85", title: "Elegant Entertaining", description: "A warm, refined atmosphere for dinners, celebrations, and special occasions." }
+    { image: "images/dining-1.jpeg.jpeg", },
+    { image: "images/dining-2.jpeg.jpeg", },
+    { image: "images/dining-3.jpeg.jpeg", },
+    { image: "images/dining-4.jpeg.jpeg", },
+    
 ];
 
 const categories = [
@@ -71,13 +92,9 @@ function renderGallery() {
   gallery.innerHTML = content.items.map((item, index) => `
     <article class="furniture-item">
       <div class="furniture-image-wrap">
-        <img src="${escapeAttribute(item.image)}" alt="${escapeAttribute(item.title)}" loading="${index < 3 ? "eager" : "lazy"}">
+        <img src="${escapeAttribute(item.image)}" alt="${escapeAttribute(item.title)}" loading="${index < 3 ? "eager" : "lazy"} decoding="async"">
       </div>
-      <div class="furniture-item-copy">
-        <span class="item-number">COLLECTION / ${String(index + 1).padStart(2, "0")}</span>
-        <h2>${escapeHTML(item.title)}</h2>
-        <p>${escapeHTML(item.description)}</p>
-      </div>
+    
     </article>`).join("");
 
   const nav = document.querySelector("[data-category-nav]");
