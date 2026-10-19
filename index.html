@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2d2119">
+  <title>KB Group for Furniture | Home</title> 
+<link rel="icon" type="image/jpeg" href="images/kb-logo (2).jpg">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="home-page">
+<!-- Navigation Bar -->
+
+<nav class="navbar">
+
+
+<a href="index.html" class="brand">
+  <span class="logo-circle logo-image">
+    <img src="images/kb-logo (2).jpg" alt="KB Group for Furniture">
+  </span>
+  <span class="brand-name">
+    <strong>KB GROUP</strong>
+    <small>FOR FURNITURE</small>
+  </span>
+</a>
+
+
+
+  <button
+    class="menu-toggle"
+    type="button"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="primary-navigation"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="nav-links" id="primary-navigation">
+    <a href="index.html" class="active">Home</a>
+    <a href="salon.html" >Salon</a>
+    <a href="kitchen.html" >Kitchen</a>
+    <a href="bedroom.html" >Bedroom</a>
+    <a href="dining.html">Dining</a>
+    <a href="index.html#contact">Contact Us</a>
+  </div>
+</nav>
+
+
+  <header class="home-hero">
+    
+<header class="home-hero">
+  <div class="hero-content">
+    <p class="eyebrow">CRAFTED FOR YOUR HOME</p>
+
+    <h1>
+      Where Comfort Meets
+      <span>Timeless Design</span>
+    </h1>
+
+    <p class="hero-copy">
+      Discover furniture crafted with care, designed for your lifestyle,
+      and made to make every space feel like home.
+    </p>
+
+    <a href="#collections" class="hero-button">
+      Explore Collections
+      <span aria-hidden="true">→</span>
+    </a>
+
+    <p class="hero-arabic" lang="ar" dir="rtl">
+      أناقة التفاصيل... وراحة تدوم
+    </p>
+  </div>
+</header>
+
+  </header>
+
+  <main class="home-main" id="collections">
+    <div class="section-heading">
+      <p class="eyebrow">EXPLORE OUR COLLECTIONS</p>
+      <h2>Find your style </h2>
+    </div>
+    <nav class="category-grid home-category-grid" aria-label="Furniture categories">
+      <a class="category-card salon-card" href="salon.html" data-category="salon">
+        <span class="category-number">01</span>
+        <span class="category-copy"><span class="category-en">Salon</span><span class="category-ar" lang="ar" dir="rtl">صالون ومعيشة</span></span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="category-card kitchen-card" href="kitchen.html" data-category="kitchen">
+        <span class="category-number">02</span>
+        <span class="category-copy"><span class="category-en">Kitchen</span><span class="category-ar" lang="ar" dir="rtl">المطبخ</span></span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="category-card bedroom-card" href="bedroom.html" data-category="bedroom">
+        <span class="category-number">03</span>
+        <span class="category-copy"><span class="category-en">Bedroom</span><span class="category-ar" lang="ar" dir="rtl">غرف النوم</span></span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="category-card dining-card" href="dining.html" data-category="dining">
+        <span class="category-number">04</span>
+        <span class="category-copy"><span class="category-en">Dining Room</span><span class="category-ar" lang="ar" dir="rtl">غرفة السفرة</span></span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+    </nav>
+    <p class="home-hint">Choose a collection to explore <span aria-hidden="true">↓</span></p>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-brand">
+      <span class="footer-monogram">KB</span>
+      <div><strong>KB Group for Furniture</strong><p>Made for the way you live.</p></div>
+    </div>
+    <div class="footer-contact">
+      <h3>Get in touch</h3>
+      <a href="tel:+201274868065">Phone: +20 127 486 8065</a>
+      <a href="https://wa.me/201274868065" target="_blank" rel="noopener">WhatsApp: +20 127 486 8065</a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener">◎</a>
+      </div>
+      <small class="edit-note"></small>
+    </div>
+    <form class="feedback-form" id="feedbackForm">
+      <h3>Share your feedback <span lang="ar" dir="rtl">رأيك يهمنا</span></h3>
+      <label for="feedbackName">Your name</label>
+      <input id="feedbackName" name="name" type="text" placeholder="Name" required maxlength="80">
+      <label for="feedbackMessage">Your message</label>
+      <textarea id="feedbackMessage" name="message" placeholder="Tell us what you think..." rows="3" required maxlength="1000"></textarea>
+      <fieldset class="rating-field">
+        <legend>Your rating</legend>
+        <div class="star-rating" role="radiogroup" aria-label="Star rating">
+          <input type="radio" id="star5" name="rating" value="5" required><label for="star5" title="5 stars">★</label>
+          <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">★</label>
+          <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">★</label>
+          <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">★</label>
+          <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">★</label>
+        </div>
+      </fieldset>
+      <button class="submit-button" type="submit">Send feedback <span aria-hidden="true">↗</span></button>
+      <p class="form-note" id="feedbackStatus" aria-live="polite"></p>
+    </form>
+    <div class="footer-bottom"><span>© <span id="year"></span> KB Group for Furniture</span><span>Designed with care · Egypt</span></div>
+  </footer>
+</body>
+</html>
